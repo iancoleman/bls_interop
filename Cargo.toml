@@ -1,0 +1,15 @@
+[package]
+name = "bls_interop"
+version = "0.1.0"
+authors = ["Ian Coleman <ian@iancoleman.io>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bincode = "1.3.1"
+blst = "0.2.0"
+hex = "0.4.2"
+rand = "0.7"
+rand_chacha = "0.2"
+threshold_crypto = "0.4.0"
